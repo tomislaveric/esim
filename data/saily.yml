@@ -1,0 +1,25 @@
+name: saily
+description: "some nice description about the company"
+logo: saily.png
+url: "http://some-affiliate-url"
+products: 
+  - name: saily product 1
+    country: france
+    price: 6.99
+    duration: 5
+    volume: 1
+    url: "http://some-affiliate-url/to-the-product"
+
+  - name: saily product 2
+    country: france
+    price: 3.99
+    duration: 7
+    volume: 3
+    url: "http://some-affiliate-url/to-the-product"
+  
+  - name: saily product 3
+    country: germany
+    price: 3.99
+    duration: 10
+    volume: 0.5 
+    url: "http://some-affiliate-url/to-the-product"
