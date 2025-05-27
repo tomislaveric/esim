@@ -1,1 +1,16 @@
-// place files you want to import through the `$lib` alias in this folder.
+export interface Product {
+  name: string;
+  country: string;
+  price: number;
+  duration: number;
+  volume: number;
+  url: string;
+}
+
+export interface Provider {
+  name: string;
+  description: string;
+  logo: string;
+  url: string;
+  products: Product[];
+}
